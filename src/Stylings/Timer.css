@@ -1,0 +1,23 @@
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+p{
+    color: whitesmoke;
+}
+.digit{
+    color: azure;
+    font-size: 30vh;
+    font-weight: 400;
+}
+.digit-wrapper{
+    display: flex;
+    align-items: center;
+    max-height: 30vh;
+    overflow: hidden;
+    width: 50vh;
+}
