@@ -1,23 +1,36 @@
-.container{
-    background-color: black;
+.timer{
+    background-color: rgba(0, 0, 0, 0.323);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+
+.timer-container {
+    height: 200px;
     overflow: hidden;
 }
-p{
-    color: whitesmoke;
-}
-.digit{
+
+
+.digit {
     color: azure;
-    font-size: 30vh;
-    font-weight: 400;
-}
-.digit-wrapper{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    height: 200px;
+    font-weight: 400;
+
+}
+
+.digit-wrapper {
+    y: 100px;
+    display: block;
+    /* flex-direction: column; */
+    /* align-items: center; */
     max-height: 30vh;
-    overflow: hidden;
-    width: 50vh;
+    max-width: 30vh;
+    /* overflow: hidden; */
+    padding: 30px;
 }
